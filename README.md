@@ -17,7 +17,18 @@
 &nbsp;&nbsp;涉及技术：Vue，Vuex，SCSS，ES6，webpack，flex
 #### [手机canvas画图](https://zhangshijun729.github.io/canvas/canvas%E7%94%BB%E5%9B%BE)
 &nbsp;&nbsp;使用原生 JS，借助 Canvas API制作的手机画板。包含橡皮擦、	保存图片的功能，期间主要难点在于如何确定上一个触点	的位置，所有功能基本上由canvas原生API实现。涉及技术：Canvas，JS
-#### [某网站主页](https://zhangshijun729.github.io/newBootstrap/index)
+#### 网站主页
+功能介绍：仿某首页项目，完全按照该网页样式制作，高精度还原。以组件化实现全屏轮播和回到顶部功能。
+
+技术细节：技术上应用了jQuery库和webpack前端模块化工具，
+
+难点：
+
+技术栈：
+
+预览地址：
+
+源码：
 &nbsp;&nbsp;仿某首页项目，完全按照该网页样式制作，高精度还原。以组	件化实现全屏轮播和回到顶部功能。
 &nbsp;&nbsp;涉及技术：css，jQuery，webpack
 #### 瀑布流新闻
