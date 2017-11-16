@@ -12,19 +12,34 @@
 * 期望城市：天津
 ## 项目
 #### [VueNote](https://zhangshijun729.github.io/vueNotepad/dist/index#/)
+功能介绍：
+技术细节：
+难点：
+技术栈：
+预览地址：
+源码：
+
+
 &nbsp;&nbsp;一个轻量的在线单页笔记管理应用，支持增删改查、标记等管理操作。整个应用基于 Vue 框架搭建，使用Vuex管理数据，使用 SCSS 制作样式，除此之外，还涉及到了 ES6 规范等相关技术的使用
 
 &nbsp;&nbsp;涉及技术：Vue，Vuex，SCSS，ES6，webpack，flex
 #### [手机canvas画图](https://zhangshijun729.github.io/canvas/canvas%E7%94%BB%E5%9B%BE)
+功能介绍：
+技术细节：
+难点：
+技术栈：
+预览地址：
+源码：
+
 &nbsp;&nbsp;使用原生 JS，借助 Canvas API制作的手机画板。包含橡皮擦、	保存图片的功能，期间主要难点在于如何确定上一个触点	的位置，所有功能基本上由canvas原生API实现。涉及技术：Canvas，JS
 #### 网站主页
 功能介绍：仿某首页项目，完全按照该网页样式制作，高精度还原。以组件化实现全屏轮播和回到顶部功能。
 
-技术细节：技术上应用了jQuery库和webpack前端模块化工具，
+技术细节：技术上应用了jQuery库和webpack前端模块化工具，webpack可以帮助我们打包文件，并且可以使用bable转换器让浏览器支持ES6
 
-难点：
+难点：难点写轮播
 
-技术栈：
+技术栈：jQuery+webpack+ES6
 
 预览地址：
 
