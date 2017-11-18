@@ -12,30 +12,40 @@
 * 期望城市：天津
 ## 项目
 #### [VueNote](https://zhangshijun729.github.io/vueNotepad/dist/index#/)
-功能介绍：
-技术细节：
+功能介绍：这是一款轻量在线单页记笔记管理的应用，支持增删改查、标记等管理操作
+
+技术细节：技术上应用了vue-cli快速搭建开发环境，vue2.0框架构建单页应用，vuex处理各组件间的通讯，使用预处理语言SCSS开发样式，webpack打包模块，flex布局让代码更简洁，使用localStorage本地存储
+
 难点：
-技术栈：
-预览地址：
-源码：
+
+技术栈：vue-cli+vue+vuex+SCSS+webpack+flex+ES6+localStorage
+
+预览地址：https://zhangshijun729.github.io/vueNotepad/dist/index#/
+
+源码：https://github.com/zhangshijun729/vueNotepad
 
 
 &nbsp;&nbsp;一个轻量的在线单页笔记管理应用，支持增删改查、标记等管理操作。整个应用基于 Vue 框架搭建，使用Vuex管理数据，使用 SCSS 制作样式，除此之外，还涉及到了 ES6 规范等相关技术的使用
 
-&nbsp;&nbsp;涉及技术：Vue，Vuex，SCSS，ES6，webpack，flex
-#### [手机canvas画图](https://zhangshijun729.github.io/canvas/canvas%E7%94%BB%E5%9B%BE)
-功能介绍：
-技术细节：
+&nbsp;&nbsp;涉及技术：
+#### [canvas画图](https://zhangshijun729.github.io/canvas/canvas%E7%94%BB%E5%9B%BE)
+功能介绍：这是一款在移动端运行的画图软件，支持画图和橡皮擦功能
+
+技术细节：技术上运用了HTML5的新元素标签canvas，并且完全使用canvasAPI。代码由原生js编写
+
 难点：
-技术栈：
-预览地址：
-源码：
+
+技术栈：H5canvas+js
+
+预览地址：https://zhangshijun729.github.io/canvas/canvas%E7%94%BB%E5%9B%BE
+
+源码：https://github.com/zhangshijun729/canvas
 
 &nbsp;&nbsp;使用原生 JS，借助 Canvas API制作的手机画板。包含橡皮擦、	保存图片的功能，期间主要难点在于如何确定上一个触点	的位置，所有功能基本上由canvas原生API实现。涉及技术：Canvas，JS
 #### 网站主页
 功能介绍：仿某首页项目，完全按照该网页样式制作，高精度还原。以组件化实现全屏轮播和回到顶部功能。
 
-技术细节：技术上应用了jQuery库和webpack前端模块化工具，webpack可以帮助我们打包文件，并且可以使用bable转换器让浏览器支持ES6
+技术细节：技术上应用了jQuery库和webpack前端模块化工具，webpack可以帮助我们打包文件，并且可以使用bable转换器让浏览器更好的支持ES6
 
 难点：难点写轮播
 
