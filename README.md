@@ -34,6 +34,7 @@
 技术细节：技术上运用了HTML5的新元素标签canvas，并且完全使用canvasAPI。代码由原生js编写
 
 难点：
+1. 
 
 技术栈：H5canvas+js
 
