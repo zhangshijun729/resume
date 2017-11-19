@@ -28,15 +28,16 @@
 &nbsp;&nbsp;一个轻量的在线单页笔记管理应用，支持增删改查、标记等管理操作。整个应用基于 Vue 框架搭建，使用Vuex管理数据，使用 SCSS 制作样式，除此之外，还涉及到了 ES6 规范等相关技术的使用
 
 &nbsp;&nbsp;涉及技术：
-#### [canvas画图](https://zhangshijun729.github.io/canvas/canvas%E7%94%BB%E5%9B%BE)
+#### canvas画图
 功能介绍：这是一款在移动端运行的画图软件，支持画图和橡皮擦功能
 
-技术细节：技术上运用了HTML5的新元素标签canvas，并且完全使用canvasAPI。代码由原生js编写
+技术细节：技术上运用了HTML5的新元素标签canvas，所有功能完全使用canvasAPI实现。代码由原生js编写
 
 难点：
-1. 
+在控制台打开手机模拟手机模式，canvas是行内模式，会很大，可以左右移动，这样不是我们想要的，所以需要手动设置宽高，但是手动行内设置宽高，会导致大小被写死，在不同的屏幕下不能自适应。还可以在css写宽高，但是这样会导致canvas缩放，并不会改变宽高。所以，要用js来改变宽高，可以用document.clientWitch和document.clientHeight来获取可见的宽和高，再赋值给canvas的宽和高，这样就可以做到屏幕自适应。还有一点，canvas在最下方会有一条缝隙，把canvas设置成display:block可以解决这个问题，设置vertical-align:top也可以获得相同的结果.
+在实际画图时，每次开始绘画时都会在上一次停止的点继续绘画，第一次除外，这是因为，touchmove有一个触发频率，如果移动得越慢，触发的点越密集，相反，触发的点越疏散，为了能够让每个点之间用线连起来，我们用一个变量来存储上一个点的位置，然后在新触发的点和上一个点之间连线，这样，每次停止绘画，记录的上一个点就变成了停止的那个点，所以会在停止的点继续绘画。解决办法是，每次停止绘画时，就添加一个touchend事件，把记录上一个点的变量清除，值为null，这样，就可以重新绘画了。
 
-技术栈：H5canvas+js
+技术栈：HTML5 canvas+js
 
 预览地址：https://zhangshijun729.github.io/canvas/canvas%E7%94%BB%E5%9B%BE
 
